@@ -20,7 +20,7 @@
 
 .main-section{
 	height:90%;
-	weight:100%;
+	width:100%;
 	display:flex;
 	gap:5px;
 }
@@ -40,15 +40,9 @@ p{
 	display:flex
 }
 
-/* ul{
-	box-sizing:border-box;
-	padding:10px;
-	text-align:center;
-	padding-left:10px
-} */
 ul {
-  padding-left: 20px; /* Adjust as needed */
-  list-style-type: disc; /* Adds bullet points */
+  padding-left: 20px; 
+  list-style-type: disc;
   margin: 0;
   padding: 0;
   display:flex;
@@ -69,7 +63,6 @@ ul li {
 	flex:1
 }
 .pictorial-news-section{
-	flex:1;
 	padding:20px;
 	background-color:white;
 	display: flex;
@@ -82,5 +75,5 @@ ul li {
 .pictorial-news-section img {
   border-radius: 10px; 
   height:25%;
-  weight:30%
+  widht:30%;
 }
